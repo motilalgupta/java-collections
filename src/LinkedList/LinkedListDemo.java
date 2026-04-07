@@ -22,7 +22,7 @@ public class LinkedListDemo {
         System.out.println("All item: "+list);
 
 //        list.get(); // @  get method is available then how random access is not allowed.
-        // Because linkList class implement randomAccess interface which marker Interface
+        // Because linkList class doesn't implement randomAccess interface which is marker Interface
         int i;
         for(i = 0; i<2; i++){       // we are fetching 2nd index
             list.get(i);
