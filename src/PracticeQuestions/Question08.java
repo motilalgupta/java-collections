@@ -8,8 +8,13 @@ import java.util.List;
 import java.util.Scanner;
 
 public class Question08 {
+    // Program	display	the	index value of element : indexOF() method returns index of specified element.
+    // It returns -1 if no such elements in the list.
     public static void main(String[] args) {
-        List<Integer> list = new ArrayList<>(Arrays.asList(10,20,30,40,50));
+        List<Integer> list = new ArrayList<>();
+        for(int i = 0; i<=5; i++){
+            list.add(i);
+        }
         System.out.println("List is: "+list);
         Scanner sc = new Scanner(System.in);
 
