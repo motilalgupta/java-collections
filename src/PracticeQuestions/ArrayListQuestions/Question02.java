@@ -5,7 +5,7 @@ import java.util.List;
 
 public class Question02 {
     // Program to check the list is empty or not:
-    //        • isEmpty() method returns true if the list doesn’t contains elements else returns false
+    // • isEmpty() method returns true if the list doesn’t contains elements else returns false
     public static void main(String[] args) {
         List<Integer> list = new ArrayList<>();
         list.add(10);

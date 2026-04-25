@@ -15,5 +15,6 @@ public class Question01{
         list.add(30);
         System.out.println("List is: "+list);
         System.out.println("List size is: "+list.size());
+
     }
 }

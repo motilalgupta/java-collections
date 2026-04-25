@@ -11,8 +11,8 @@ public class Question06 {
         Scanner sc = new Scanner(System.in);
         List<Integer> list = new ArrayList<>(Arrays.asList(10,20,30,40,50));
         System.out.print("Enter the index to remove: ");
-
         int loc = sc.nextInt();
+
         if(loc>=0 && loc<=list.size()){
             list.remove(loc);
             System.out.println("List is: "+list);

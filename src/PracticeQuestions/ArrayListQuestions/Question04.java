@@ -26,7 +26,7 @@ public static void main(String[] args) {
     int index = sc.nextInt();
 
     if(index>=0 && index<list.size()-1){
-        System.out.print("Insert the index: ");
+        System.out.print("Insert the element: ");
         int ele = sc.nextInt();
         list.add(index,ele);
     }else{
