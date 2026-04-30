@@ -6,7 +6,7 @@ import java.util.Scanner;
 
 public class Question03 {
     //Program to display the element of specified index: (user entered index)
-    //        • get(int index) returns the element of specified index.
+    // • get(int index) returns the element of specified index.
     //We specify the error message – if the index value is not present:
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);

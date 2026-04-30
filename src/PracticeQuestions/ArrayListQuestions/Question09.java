@@ -21,6 +21,7 @@ public class Question09 {
             list.add(i);
         }
         System.out.println("List is: "+list);
+
         System.out.print("Enter element to replace: ");
         int replace = sc.nextByte();
 

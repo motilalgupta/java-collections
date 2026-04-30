@@ -20,11 +20,13 @@ class Main{
         int id[] = {1,2,3};
         String name[] = {"Motilal","Megha","Rahul"};
         double salary[] = {1000,15000,20000};
+
         List<Employee> list = new ArrayList<>();
         for(int i = 0; i<=id.length-1; i++){
             Employee e = new Employee(id[i],name[i],salary[i]);
             list.add(e);
         }
+
         System.out.println("Details are: ");
         for(Employee e: list){
             System.out.println(e);

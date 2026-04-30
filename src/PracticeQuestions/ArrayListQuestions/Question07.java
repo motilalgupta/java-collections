@@ -12,9 +12,13 @@ public class Question07 {
         Scanner sc = new Scanner(System.in);
         System.out.println("List is: "+list);
 
+        System.out.print("Enter the element to check contains or not: ");
         int ele = sc.nextInt();
+
+        int index = list.indexOf(ele);
+
         if(list.contains(ele)){
-            System.out.println("Yes element is present in the list");
+            System.out.println("Yes element is present in the list at-"+index);
         }else{
             System.out.println("Element is not present in the list");
         }

@@ -20,6 +20,7 @@ public class Question08 {
 
         System.out.print("Inter the index of element: ");
         int ele = sc.nextInt();
+
         int index = list.indexOf(ele);
         if(index!=-1){
             System.out.println("Index element is: "+index);
