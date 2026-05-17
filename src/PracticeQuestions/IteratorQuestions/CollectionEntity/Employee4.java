@@ -15,6 +15,7 @@ public class Employee4 {
         this.id=id;
         this.name=name;
         this.salary=salaray;
+
     }
 }
 class Test{
@@ -43,7 +44,6 @@ class Test{
             if (choice.equalsIgnoreCase("No")) {
                 break;
             }
-
         }
         System.out.println("Details are:- ");
         for(Employee4 e: list){
