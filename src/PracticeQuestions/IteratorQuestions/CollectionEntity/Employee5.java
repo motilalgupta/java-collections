@@ -4,10 +4,22 @@ import PracticeQuestions.IteratorQuestions.Employee;
 
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
+import java.util.ArrayList;
+import java.util.List;
+class Student{
+    int id;
+    String name;
+    double salary;
 
-public class Employee5 {
+    Student(int id, String name, double salary){
+        this.id=id;
+        this.name=name;
+        this.salary=salary;
+    }
+}
+class Employee5 {
     public	static	void	main(String[]	args)	throws	Exception	{
-        List<Employee> list = new ArrayList<Employee>();
+        List<Student> list = new ArrayList<Employee>();
         BufferedReader br =	null;
         try{
             br	=	new BufferedReader(new InputStreamReader(System.in));
@@ -17,7 +29,7 @@ public class Employee5 {
                 int id = Integer.parseInt(br.readLine());
                 String name = br.readLine();
                 double	salary	=	Double.parseDouble(br.readLine());
-                Employee	e	=	new Employee(id,	name,	salary);
+                Student e	=	new Student(id,	name,	salary);
                 list.add(e);
                 System.out.print("Do	you	add	another	record(yes/no)	:	");
                 String choice =	br.readLine();
@@ -26,7 +38,7 @@ public class Employee5 {
                 }
             }
             System.out.println("Details	are	:	");
-            for(Employee e :	list)	{
+            for(Student e :	list)	{
                 System.out.println(e.id + "	, "	+ e.name +	" ,	" +	e.salary);
             }
         }
