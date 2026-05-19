@@ -19,7 +19,7 @@ class Student{
 }
 class Employee5 {
     public	static	void	main(String[]	args)	throws	Exception	{
-        List<Student> list = new ArrayList<Employee>();
+        List<Student> list = new ArrayList<Student>();
         BufferedReader br =	null;
         try{
             br	=	new BufferedReader(new InputStreamReader(System.in));
