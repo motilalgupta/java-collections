@@ -81,10 +81,25 @@ public class Employee7 {
 
         // Printing in reverse order
 
+//        System.out.println("Show Details: ");
+//        for(int i = list.size()-1; i>=0; i--){
+//            Employee7 e = list.get(i);
+//            System.out.println(e.getId()+" | "+e.getName()+" | "+e.getSalary()+" | "+e.getLocation());
+//        }
+
+        // Display Employee details whose ID = 103
         System.out.println("Show Details: ");
-        for(int i = list.size()-1; i>=0; i--){
+        boolean found = false;
+        for(int i = 0; i<=list.size()-1; i++){
             Employee7 e = list.get(i);
-            System.out.println(e.getId()+" | "+e.getName()+" | "+e.getSalary()+" | "+e.getLocation());
+            if(e.getId() == 103){
+                System.out.println(e.getId()+" | "+e.getName()+" | "+e.getSalary()+" | "+e.getLocation());
+                found = true;
+                break;
+            }
+        }
+        if(!found){
+            System.out.println("ID 103 doesn't exit!");
         }
     }
 }
