@@ -66,8 +66,15 @@ public class Employee7 {
             e.setLocation(locations[i]);
             list.add(e);
         }
+//        System.out.println("Show Details: ");
+//        for(Employee7 e: list){
+//            System.out.println(e.getId()+" | "+e.getName()+" | "+e.getSalary()+" | "+e.getLocation());
+//        }
+
+        // Printing using for loop
         System.out.println("Show Details: ");
-        for(Employee7 e: list){
+        for(int i = 0; i<=list.size()-1; i++){
+            Employee7 e = list.get(i);
             System.out.println(e.getId()+" | "+e.getName()+" | "+e.getSalary()+" | "+e.getLocation());
         }
     }
