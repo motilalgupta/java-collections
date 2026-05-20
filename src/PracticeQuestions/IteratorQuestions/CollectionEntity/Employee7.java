@@ -72,8 +72,17 @@ public class Employee7 {
 //        }
 
         // Printing using for loop
+
+//        System.out.println("Show Details: ");
+//        for(int i = 0; i<=list.size()-1; i++){
+//            Employee7 e = list.get(i);
+//            System.out.println(e.getId()+" | "+e.getName()+" | "+e.getSalary()+" | "+e.getLocation());
+//        }
+
+        // Printing in reverse order
+
         System.out.println("Show Details: ");
-        for(int i = 0; i<=list.size()-1; i++){
+        for(int i = list.size()-1; i>=0; i--){
             Employee7 e = list.get(i);
             System.out.println(e.getId()+" | "+e.getName()+" | "+e.getSalary()+" | "+e.getLocation());
         }
